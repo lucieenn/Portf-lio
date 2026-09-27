@@ -120,3 +120,26 @@ header{
 .botoes a:first-child:hover{
     background-color: #0F5BB5;
 }
+
+/* Sobre */
+.apresentacao{
+    max-width: 1200px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saudacao{
+    color:#1683FF;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.apresentacao h1{
+    color: #F5F7FA;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
